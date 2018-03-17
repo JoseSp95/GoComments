@@ -1,8 +1,6 @@
 package models
 
-type Message struct{
+type Message struct {
 	Message string `json:"message"`
-	Code int `json:"code"`
-
+	Code    int    `json:"code"`
 }
-
